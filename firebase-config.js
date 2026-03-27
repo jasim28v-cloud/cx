@@ -1,10 +1,20 @@
-export const firebaseConfig = {
-  apiKey: "AIzaSyAQEHv1K69ZtA48l1TpqUfAIJlmM20gZyA",
-  authDomain: "tlgr-1436a.firebaseapp.com",
-  databaseURL: "https://tlgr-1436a-default-rtdb.firebaseio.com",
-  projectId: "tlgr-1436a",
-  storageBucket: "tlgr-1436a.firebasestorage.app",
-  messagingSenderId: "128259219683",
-  appId: "1:128259219683:web:b59f803204f226a5bda5d6",
-  measurementId: "G-K4W3BBTV0G"
+// firebase-config.js
+const firebaseConfig = {
+    apiKey: "AIzaSyCVyQS6kuOBDyx_FXoGx6xgXxbbzjs5COg",
+    authDomain: "fokx-c135a.firebaseapp.com",
+    databaseURL: "https://fokx-c135a-default-rtdb.firebaseio.com",
+    projectId: "fokx-c135a",
+    storageBucket: "fokx-c135a.firebasestorage.app",
+    messagingSenderId: "447033620521",
+    appId: "1:447033620521:web:730fde0a59cb5624128438"
 };
+
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const db = firebase.database();
+const storage = firebase.storage();
+
+const CLOUD_NAME = 'dk5kas1gc';
+const UPLOAD_PRESET = 'go_kck';
+
+console.log('✅ SHΔDØW System Ready');
